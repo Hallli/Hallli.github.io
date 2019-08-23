@@ -10,4 +10,6 @@ strong{color:red;}
 em{color:lightskyblue}
 ul {color:navy;}
 
+h1{outline: ridge;}
+
 body {margin: 800px;}
