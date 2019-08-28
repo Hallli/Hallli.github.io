@@ -19,7 +19,7 @@ body {width: 800px}
 body {
     background-image: url("https://scontent.frkv2-1.fna.fbcdn.net/v/t1.0-9/c23.0.312.312a/14484961_10153708311682531_43147301673389193_n.png?_nc_cat=103&_nc_oc=AQkll4oRJnRZgdFsuk2L-k9N1fHP7cqYrBoTf1xHP6Q8TNcfgmFAmH1IXYnKMK9v4hU&_nc_ht=scontent.frkv2-1.fna&oh=0a60791eb82322e342ab810970e056c5&oe=5DD4450B");
     background-repeat: no-repeat;  
-    background-position:top center;
+    background-position: left top 500px;
     background-size:50px;
     background-attachment:fixed;
 }
