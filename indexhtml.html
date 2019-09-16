@@ -1,88 +1,63 @@
-
 <!DOCTYPE html>
->
 <html>
- <style>
-
-body {
-  background: #34495e;
-  font: normal 300 18px "Roboto", sans-serif;
-}
- 
-#menu-nav {
-  max-width: 1000px;
-  margin: 130px auto;
-  background-color: #ecf0f1;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
- 
-#navigation-bar ul {
-  border-radius: 4px;
-  overflow: hidden;
-}
-#navigation-bar li {
-  float: left;
-  width: 20%;
-}
-#navigation-bar li:hover a::before {
-  right: 0;
-  left: 0;
-}
-#navigation-bar a {
-  color: #848484;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  padding: 20px 0;
-  display: block;
-  position: relative;
-  transition: all 0.3s ease;
-}
-#navigation-bar a:hover {
-  color: #e74c3c;
-}
-#navigation-bar a::before {
-  content: "";
-  transition: all 0.4s ease-in-out;
-  position: absolute;
-  right: 50%;
-  left: 50%;
-  bottom: 0;
-  height: 2px;
-  background-color: #e74c3c;
-}
-#navigation-bar a:hover::before {
-  right: 0;
-  left: 0;
-}
- 
-li {
-	list-style: none;
-}
- 
-</style>
 <head>
-  <meta charset="UTF-8">
-  <title>Navigation Bar</title>
-
-</head>
- 
-<body>
- 
-  <div id="menu-nav">
-  <div id="navigation-bar">
-    <ul>
-      <li><a href="https://hallli.github.io/verkefni"><i class="fa fa-home"></i><span>HTML og CSS</span></a></li>
-      <li><a href="#"><i class="fa fa-handshake"></i><span>Services</span></a></li>
-      <li><a href="#"><i class="fa fa-user"></i><span>About</span></a></li>
-      <li><a href="#"><i class="fa fa-book"></i><span>Contact</span></a></li>
-	  <li><a href="#"><i class="fa fa-rss"></i> <span>Blog</span></a></li>
-    </ul>
-  </div>
+<style>
+ body{
+  margin:0;
+  background-color: gray;
+ }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
   
-  </div>
- 
+}
+.ul1{
+  border: solid ;
+  border-width: 0px 0px 2px 0px;
+  border-color: #4CAF50;
+}
+nav ul li {
+  float: left;
+}
+ .ser{
+ color:#4CAF50;
+ }
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+<nav>
+  <ul class="ul1">
+    <li><a class="active a2" href="#home">Verkefni 1</a></li>
+    <li><a href="verkefni-1/aut.html">Html 1.1</a></li>
+    <li><a href="verkefni-1/verkefni-1_2.html">Html og Css 1.2</a></li>
+    <li><a href="verkefni-1/verkefni-1_3.html">Css og eh Html 1.3</a></li>
+    <li><a class="ser" href="#verkefnablað1">Verkefnablað 1</a></li>
+  </ul>
+  <ul class="ul2">    
+    <li><a class="active a1" href="#home">Verkefni 2</a></li>
+    <li><a href="https://hallli.github.io/verkefni2/verkefni2.1">Boxmodel 2.1</a></li>
+    <li><a href="https://hallli.github.io/verkefni2/verkefni2.2">Display 2.2</a></li>
+    <li><a href="https://hallli.github.io/verkefni2/verkefni2.3">Float 2.3</a></li>
+    <li><a href="https://hallli.github.io/verkefni2/verkefni2.4">Flex 2.4</a></li>
+    <li><a class="ser" href="verkefni-2/verkefni_2 verkefnablöð/Verkefni_2 verkblað.pdf">Verkefnablað 2</a></li>
+  </ul>
+</nav>  
+
 </body>
- 
 </html>
