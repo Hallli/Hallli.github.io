@@ -1,0 +1,89 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background: linear-gradient(midnightblue, teal, midnightblue);
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+header h1{
+    color:white;
+}
+main h1{
+    margin:0px;
+}
+header a{
+    margin:16px;
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+    color:pink;
+}
+a:hover{
+    background-color:lightblue;
+}
+li{
+    display:block;
+}
+section{
+    padding: 16px;
+}
+.topnav{
+    margin-left:243px;
+}
+
+
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.gap-4 {
+    grid-gap: 4em
+}
+
+.litur{
+    background-image: linear-gradient(orange, yellow);
+}
+
+.verkefni{
+    color:moccasin;
+    margin-left:364px;
+}
+.hvitur{
+    color:White;
+}
+blockquote {
+  background-color: rgba(255,255,255,0.7);
+  padding:16px;
+}
+section p{
+
+}
+.copy{
+    text-align:center;
+    color:white;
+}
