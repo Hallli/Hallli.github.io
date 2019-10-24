@@ -4,7 +4,7 @@ body {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
-    background: linear-gradient(midnightblue, teal, midnightblue);
+    background: linear-gradient(#494ca2, blue, rgb(58, 53, 53));
 }
 h1 {
     font-weight: 300;
