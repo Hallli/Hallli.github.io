@@ -39,8 +39,6 @@ section{
     margin-left:243px;
 }
 
-
-
 .container {
     max-width: 60em; /*960px = fartölvur*/
     margin: 0 auto; /* top+bottom og left+right */
@@ -66,7 +64,7 @@ section{
 }
 
 .litur{
-    background-image: linear-gradient(orange, yellow);
+    background-image: linear-gradient(khaki, antiquewhite);
 }
 
 .verkefni{
