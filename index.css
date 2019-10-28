@@ -20,6 +20,7 @@ main h1{
 }
 header a{
     margin:16px;
+    font-family: 'Staatliches', cursive;
 }
 a:link{
     text-decoration: none;
@@ -72,6 +73,7 @@ section{
 .verkefni{
     color:moccasin;
     margin-left:364px;
+    font-family: 'Staatliches', cursive;
 }
 .hvitur{
     color:White;
