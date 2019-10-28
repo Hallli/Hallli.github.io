@@ -8,7 +8,8 @@ body {
 }
 h1 {
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2.5em
+    font-family: 'Amatic SC', cursive;
 }
 header h1{
     color:white;
@@ -77,9 +78,8 @@ section{
 blockquote {
   background-color: rgba(255,255,255,0.3);
   padding:16px;
-}
-section p{
-
+  margin-left:-1px;
+  margin-right:-1px; 
 }
 .copy{
     text-align:center;
