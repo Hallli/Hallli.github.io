@@ -1,0 +1,68 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0;
+    font: 400 1em/1.5 sans-serif;
+    background-image: linear-gradient(khaki,gold);
+    height:100vh;
+}
+header h1{
+    text-align:center;
+}
+nav{
+  
+}
+main{
+
+}
+footer{
+    background-image: linear-gradient(lightskyblue,lightblue,rgb(174, 208, 230));
+}
+
+a:link{
+    color:lightgoldenrodyellow;
+    text-decoration: none;
+}
+a:hover{
+    background-color:black;
+}
+a:active{
+    color:greenyellow;
+}
+a:visited{
+    color: pink;
+}
+li {
+    list-style-type: none;
+}
+.ulli{
+    display:Flex;
+    justify-content: space-evenly;
+    border: solid 1px;
+}
+.rod{
+    display:inline;
+}
+.rod2{
+    display: block;
+    border:solid 1px blueviolet;
+    margin-right:140px;
+    margin-left:5px;
+    
+}
+.shit{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.midja{
+    text-align: center;
+}
+.banani{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: end;
+}
+.hah{
+    background-image: linear-gradient(lightblue,lightskyblue,lightblue);
+}
