@@ -10,17 +10,14 @@ header{
 
 }
 header h1{
-   /* line-height: 3.4em;*/
     text-align:center;
     font-family: 'Yeon Sung', cursive;
     font-size:4em;
 }
 header img{
     position: absolute;
-
-}
-nav{
-  
+    width:200px;
+    height:200px;
 }
 main{
     display:inline;
@@ -28,19 +25,18 @@ main{
 footer{
     background-image: linear-gradient(lightskyblue,lightblue,rgb(174, 208, 230));
 }
-
 a:link{
-    color:lightgoldenrodyellow;
+    color:#ecf0f1;
     text-decoration: none;
 }
 a:hover{
-    background-color:black;
+    background-color:yellow;
 }
 a:active{
     color:greenyellow;
 }
 a:visited{
-    color: pink;
+    color:#34495e ;
 }
 li {
     list-style-type: none;
@@ -79,7 +75,6 @@ audio{
 .skipting{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-
 }
 .hah{
     background-image: linear-gradient(lightblue,lightskyblue,lightblue);
