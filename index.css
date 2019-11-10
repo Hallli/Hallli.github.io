@@ -29,14 +29,14 @@ a:link{
     color:#ecf0f1;
     text-decoration: none;
 }
+a:visited{
+    color:#34495e ;
+}
 a:hover{
     background-color:yellow;
 }
 a:active{
     color:greenyellow;
-}
-a:visited{
-    color:#34495e ;
 }
 li {
     list-style-type: none;
