@@ -1,2 +1,0 @@
-# Hallli.github.io
-mainadal
